@@ -1,0 +1,64 @@
+.slider-works>ul li {
+    float: right;
+}
+
+.slider-works .control .fa:first-of-type {
+    left: unset;
+    right: 10px;
+}
+
+.slider-works .control .fa:last-of-type {
+    right: unset;
+    left: 10px;
+}
+
+.project .tablet:before {
+    right: 47%;
+    left: unset;
+
+}
+
+.project .mobile:before {
+    right: 40%;
+    left: unset;
+
+}
+
+.project .mobile {
+    left: unset;
+
+    right: 0;
+
+}
+
+.slider-works .control .prev {
+    right: 40px;
+    left: unset;
+
+}
+
+.slider-works .control .next {
+    left: 40px;
+    right: unset;
+
+}
+
+
+.project .screen:hover~.mobile {
+    left: unset;
+
+    right: -80px
+}
+
+.project .screen:hover~.tablet {
+    right: unset;
+    left: -80px;
+}
+
+.project .tablet {
+    left: 0;
+    right: unset;
+}.project .mobile{
+    left: unset;
+    right: 0;
+}
